@@ -7,7 +7,7 @@ window.Shortly = Backbone.View.extend({
   },
 
   initialize: function() {
-    console.log( 'Shortly is running' );
+    console.log( 'AND WE ARE LIVE' );
     $('body').append(this.render().el);
 
     this.router = new Shortly.Router({ el: this.$el.find('#container') });
